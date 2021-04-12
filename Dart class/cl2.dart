@@ -6,60 +6,61 @@ void main() {
   var list3 = ["bilal","ali","umair","huzaifa"];
 
   
-  list1.replaceRange(2,4,["ahmed",false]);
- 
+  list1.replaceRange(2,4,["ahmed",false,"asdda"]);
+
+ print(list1);
   
-    list1[3]="huzaifa";
-    int a = 3;
-    String b = "bilal";
-    double c = 2.97;
-    bool d = true;
-  list3.sort();
-  print(list1);
+//     list1[3]="huzaifa";
+//     int a = 3;
+//     String b = "bilal";
+//     double c = 2.97;
+//     bool d = true;
+//   list3.sort();
+//   print(list1);
   
-  var list5 = [];
-  if(list5.isEmpty){
-  print("Empty list found");
-  }
+//   var list5 = [];
+//   if(list5.isEmpty){
+//   print("Empty list found");
+//   }
   
-  list5.add("ali");
-  list5.add("bilal");
-  print(list5);
-  if(list5.isNotEmpty){
-print("List is not empty");
-  }
-  list5.clear();
-  print(list5);
-  var list6=[8,4,6,9,7,1];
-  var x = List.of(list6.reversed);
-  print(x);
-  var list7 = [12,19,-7,-2,-1,25,36];
-  list6.addAll(list7);
-  print(list6);
-  list6.sort();
-  print(list6);
+//   list5.add("ali");
+//   list5.add("bilal");
+//   print(list5);
+//   if(list5.isNotEmpty){
+// print("List is not empty");
+//   }
+//   list5.clear();
+//   print(list5);
+//   var list6=[8,4,6,9,7,1];
+//   var x = List.of(list6.reversed);
+//   print(x);
+//   var list7 = [12,19,-7,-2,-1,25,36];
+//   list6.addAll(list7);
+//   print(list6);
+//   list6.sort();
+//   print(list6);
   
-  list6.insert(4,50);
-  print(list6); 
+//   list6.insert(4,50);
+//   print(list6); 
   
-  var list8 = ["ali","bilal"];
-  list8.insertAll(1,["huzaifa","umair","ghous"]);
-  print(list8);
+//   var list8 = ["ali","bilal"];
+//   list8.insertAll(1,["huzaifa","umair","ghous"]);
+//   print(list8);
   
-  list8.remove("ghous");
-  print(list8);
+//   list8.remove("ghous");
+//   print(list8);
   
-  list8.removeAt(0);
-  print(list8);
+//   list8.removeAt(0);
+//   print(list8);
   
-  list7.removeWhere((e) => e > 0);
-  print(list7);
+//   list7.removeWhere((e) => e > 0);
+//   print(list7);
   
-  list8.removeRange(2, 3);
-  print(list8);
+//   list8.removeRange(2, 3);
+//   print(list8);
   
-  list7.retainWhere((e) => e > 7);
-  print(list7);
+//   list7.retainWhere((e) => e > 7);
+//   print(list7);
   
   // Dictionary
   
@@ -120,8 +121,8 @@ print("List is not empty");
   
   
   
-  var abc = "bilal";
-  print('${abc}');
+  // var abc = "bilal";
+  // print('${abc}');
   
   
   }
