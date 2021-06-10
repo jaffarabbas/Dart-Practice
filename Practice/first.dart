@@ -1,14 +1,6 @@
-class first{
-  int a;
+void main() {
+var mylist = [5,3,2,4,1,0]; 
+mylist.add(4);
+print(mylist);
 
-  void add(int ad){
-    this.a = ad;
-    print(a);
-  }
-}
-
-void main(){
-  print('hello jaffar');
-  first obj = first();
-  obj.add(4);
 }
